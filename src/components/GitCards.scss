@@ -1,0 +1,12 @@
+.git-cards {
+    .git-card {
+        margin: .25rem;
+        .git-name {
+            text-align: center;
+            margin: 0 0 1rem;
+        }
+    }
+    .git-card-loading {
+        flex-basis: 100%;
+    }
+}
