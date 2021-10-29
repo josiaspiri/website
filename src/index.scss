@@ -1,5 +1,5 @@
 $font-prefix: "~@ibm/plex";
-@import "~@ibm/plex/scss/ibm-plex.scss";
+@import "~@ibm/plex/scss/sans";
 @import "~reset-css/sass/reset";
 
 $white: #ffffff;
@@ -163,7 +163,6 @@ a {
   }
 }
 
-.git-card-loading,
 .git-card {
   background: $fg;
   border-radius: 10px;
@@ -178,6 +177,6 @@ a {
   max-width: 725px;
 }
 
-.git-cards > .git-card:not(:last-child) {
+.git-cards>.git-card:not(:last-child) {
   margin-bottom: 1rem;
 }
