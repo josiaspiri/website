@@ -30,11 +30,12 @@ export default function GitCards(props) {
       <div className="git-card"><h3>Nothing is here!</h3></div> :
       items.map((item, index) =>
         <a
+          key={index}
           href={item.html_url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div key={index} className="git-card">
+          <div className="git-card">
             <h3 className="git-name">
               {item.name}
             </h3>
