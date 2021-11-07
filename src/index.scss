@@ -29,10 +29,10 @@ $font: hsla(51, 55%, 82%, 1);
 }
 
 .icon-container:hover {
-    animation: wiggle 1s linear infinite;
+  animation: wiggle 1s linear infinite;
 }
 
-.icon-container > .svg-inline--fa {
+.icon-container>.svg-inline--fa {
   height: 1rem;
   width: 1rem;
 }
@@ -78,10 +78,6 @@ h3 {
   background: $bg;
 }
 
-a {
-  color: $other;
-}
-
 #wrapper {
   background: $bg;
   overflow: auto;
@@ -111,7 +107,7 @@ a {
   margin: auto;
 }
 
-.children-bottom-margin > *:not(:last-child) {
+.children-bottom-margin>*:not(:last-child) {
   margin: 0 0 .5rem;
 }
 
@@ -127,15 +123,19 @@ a {
   0% {
     transform: scale(1);
   }
+
   25% {
     transform: rotate(-2.5deg) scale(1.2);
   }
+
   50% {
     transform: rotate(0deg) scale(1.4);
   }
+
   75% {
     transform: rotate(2.5deg) scale(1.2);
   }
+
   100% {
     transform: scale(1);
   }
@@ -163,20 +163,15 @@ a {
   }
 }
 
-.git-card {
-  background: $fg;
-  border-radius: 10px;
-  padding: 1rem;
+.git-card>h3 {
+  color: $other;
 }
 
-.git-name {
-  color: $other;
+.git-card {
+  color: $font;
+  background: $fg;
 }
 
 .content {
   max-width: 725px;
-}
-
-.git-cards>.git-card:not(:last-child) {
-  margin-bottom: 1rem;
 }

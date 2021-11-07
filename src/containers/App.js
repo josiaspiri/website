@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import GitCards from './components/GitCards';
+import GitCards from './GitCards';
 
 export default function App() {
   return (
