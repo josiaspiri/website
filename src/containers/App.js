@@ -19,7 +19,7 @@ export default function App() {
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
-      <GitCards url="https://api.josiaspiri.dev/github/users/josiaspiri/repos" />
+      <GitCards url="https://api.github.com/users/josiaspiri/repos" />
     </div>
   );
 };
