@@ -20,7 +20,7 @@ export default function GitCards(props) {
       })
       .catch(error => setError(error))
       .finally(_ => setLoading(false));
-  });
+  }, []);
 
   return <div className="git-cards">
     {error && <div className="git-card"><h3>Something broke.</h3></div>}
